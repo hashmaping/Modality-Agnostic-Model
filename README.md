@@ -1,1 +1,2 @@
 # Brain-SAM
+Brain-SAM is a medical image segmentation framework built upon SAM2, incorporating a modality-agnostic encoder, an Agent Adapter (A-matrix) for cross-modal attention, a temporal memory bank, and a scale-aware 3D decoder. It supports single- and multi-modal MRI (e.g., T1/FLAIR) as well as cross-frame and cross-slice scenarios, with a focus on improving the segmentation of small lesions and low-contrast boundaries, while its robustness is validated through cross-dataset and cross-modal generalization experiments.
